@@ -19,10 +19,14 @@
     <body>
             <!-- Navbar via include -->
         <?php include "includes/navbar.php" ?>
-
-
-
-
+            <br>
+        <h1 class="center">
+            Project Zero
+        </h1>
+            <br>
+        <h2 class="center">
+            Lan Gaming
+        </h2>
     </body>
 </html>
 

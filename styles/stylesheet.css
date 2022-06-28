@@ -2,10 +2,17 @@
  *  Romeo, Luuk, Kai, Sven
  *  28-6-2022
  */
+
+
+/***************/
+/* 1. GENERAL */
+/*************/
+
 *
 {
     font-family: verdana;
 }
+
 body
 {
     margin: 0;
@@ -13,4 +20,16 @@ body
     padding: 0;
     background: rgb(88,207,238);
     background: linear-gradient(rgba(88,207,238,1) 0%, rgba(169,144,186,1) 100%);
+}
+
+.center
+{
+    text-align: center;
+    margin: auto;
+}
+
+h2, h1
+{
+    color: white;
+    text-shadow: black 1px 1px 1px;
 }
