@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    height: 50vw;
+    padding: 0;
+    background: rgb(249, 225, 147);
+    background: linear-gradient(rgba(249, 225, 147) 0%, rgba(169, 144, 186) 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
