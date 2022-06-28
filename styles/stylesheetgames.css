@@ -7,8 +7,8 @@ body
     margin: 0;
     height: 50vw;
     padding: 0;
-    background: rgb(249, 225, 147);
-    background: linear-gradient(rgba(249, 225, 147, 1) 0%, rgba(169, 144, 186, 1) 100%);
+    background: rgb(88,207,238);
+    background: linear-gradient(rgba(88,207,238,1) 0%, rgba(169,144,186,1) 100%);
 }
 
 ul {
