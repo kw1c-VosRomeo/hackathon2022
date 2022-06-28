@@ -22,7 +22,6 @@
                 <li><a href="pages/evenementen.php">evenementen</a></li>
                 <li><a href="pages/games.php">games</a></li>
                 <li><a href="pages/teams.php">teams</a></li>
-                <li style="float:right"><a href="login/login.php">login</a></li>
             </ul>
             <br>
         <h1 class="center">
@@ -34,7 +33,7 @@
         </h2>
         <img id="homePicture" src="images/games.png">
             <br>
-            <a id="eventbutton">Evenementen</a>
+            <a id="eventbutton" href="pages/evenementen.php">Evenementen</a>
             <br><br><br>
         <p class="center">Wij bij Project Zero willen graag mensen samen brengen, door middel van gamen. Iedereen is welkom!<br> Project Zero is in 1995 opgericht door Romeo, Luuk, Sven en Kai.  </p>
     <br><br><br>
