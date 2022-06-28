@@ -19,7 +19,6 @@
     <body>
             <!-- Navbar via include -->
             <ul>
-                <li><a href="index.php">Home</a></li>
                 <li><a href="pages/evenementen.php">evenementen</a></li>
                 <li><a href="pages/games.php">games</a></li>
                 <li><a href="pages/teams.php">teams</a></li>
@@ -35,8 +34,6 @@
         </h2>
         <img>
         <p>Wij bij Project Zero willen graag mensen samen brengen, door middel van gamen. Iedereen is welkom! Project Zero is in 1995 opgericht door Romeo, Luuk, Sven en Kai.  </p>
-
-
     </body>
 </html>
 
