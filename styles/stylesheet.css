@@ -1,0 +1,11 @@
+
+
+body
+{
+    margin: 0;
+    width: 1920px;
+    height: 1080px;
+    padding: 0;
+    background: rgb(88,207,238);
+    background: linear-gradient(rgba(88,207,238,1) 0%, rgba(169,144,186,1) 100%);
+}
