@@ -15,7 +15,7 @@ function startConnection()
     // Open de database connectie en ODBC driver
     try {
         $pdo = new PDO("odbc:odbc2sqlserver");
-        $pdo->query("USE Evenementen");
+        $pdo->query("USE hackathon");
     } catch (PDOException $e) {
         echo "<h1>Database error:</h1>";
         echo $e->getMessage();
@@ -35,7 +35,7 @@ function executeQuery($sql)
     }
     catch (PDOException $e)
     {
-        echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
+        echo 'Er is een probleem met ophalen van de data: ' . $e->getMessage();
         die();
     }
 }

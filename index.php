@@ -35,6 +35,8 @@
         </h2>
         <img>
         <p>Wij bij Project Zero willen graag mensen samen brengen, door middel van gamen. Iedereen is welkom! Project Zero is in 1995 opgericht door Romeo, Luuk, Sven en Kai.  </p>
+
+
     </body>
 </html>
 

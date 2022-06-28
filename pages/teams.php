@@ -20,5 +20,42 @@
     <li style="float:right"><a href="../login/login.php">login</a></li>
 </ul>
 
+<?php
+/* Starten database connectie */
+include "../includes/functionsDB.php";
+startConnection();
+
+/* query aanmaken */
+$query = "SELECT * FROM teams;";
+$result = executeQuery($query);
+
+
+echo "<table>";
+echo "<tr>";
+echo "<th>teamnaam</th>";
+echo "<th>speler 1</th>";
+echo "<th>speler 2</th>";
+echo "<th>speler 3</th>";
+echo "<th>speler 4</th>";
+echo "<th>speler 5</th>";
+echo "<th>speler 6</th>";
+echo "</tr>";
+
+while ($row = $result->fetch(PDO::FETCH_ASSOC))
+{
+    echo "<tr>";
+    echo "<td>". $row["teamnaam"] . "</td>";
+    echo "<td>". $row["spelernaam1"] . "</td>";
+    echo "<td>". $row["spelernaam2"] . "</td>";
+    echo "<td>". $row["spelernaam3"] . "</td>";
+    echo "<td>". $row["spelernaam4"] . "</td>";
+    echo "<td>". $row["spelernaam5"] . "</td>";
+    echo "<td>". $row["spelernaam6"] . "</td>";
+    echo "</tr>";
+}
+
+echo "</table>";
+?>
+
 </body>
 </html>
