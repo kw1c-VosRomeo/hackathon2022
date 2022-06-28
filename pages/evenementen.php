@@ -34,7 +34,6 @@ echo "<table>";
 echo "<tr>";
 echo "<th>Naam</th>";
 echo "<th>Datum</th>";
-echo "<th>Tijd</th>";
 echo "<th>Plaats</th>";
 echo "</tr>";
 
@@ -43,7 +42,6 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC))
     echo "<tr>";
     echo "<td>". $row["naam"] . "</td>";
     echo "<td>". $row["datum"] . "</td>";
-    echo "<td>". $row["tijd"] . "</td>";
     echo "<td>". $row["plaats"] . "</td>";
     echo "</tr>";
 }

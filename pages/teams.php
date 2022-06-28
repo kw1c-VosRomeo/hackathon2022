@@ -47,7 +47,7 @@ while ($row = $result->fetch(PDO::FETCH_ASSOC))
     echo "<td>". $row["teamnaam"] . "</td>";
     echo "<td>". $row["spelernaam1"] . "</td>";
     echo "<td>". $row["spelernaam2"] . "</td>";
-    echo "<td>". $row["spelernaam3"] . "</td>";
+    echo "<td>". $row["Spelernaam3"] . "</td>";
     echo "<td>". $row["spelernaam4"] . "</td>";
     echo "<td>". $row["spelernaam5"] . "</td>";
     echo "<td>". $row["spelernaam6"] . "</td>";
