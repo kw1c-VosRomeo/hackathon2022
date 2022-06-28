@@ -18,7 +18,12 @@
     </head>
     <body>
             <!-- Navbar via include -->
-        <?php include "includes/navbar.php" ?>
+            <ul>
+                <li><a href="pages/evenementen.php">evenementen</a></li>
+                <li><a href="pages/games.php">games</a></li>
+                <li><a href="pages/teams.php">teams</a></li>
+                <li style="float:right"><a href="login/login.php">login</a></li>
+            </ul>
             <br>
         <h1 class="center">
             Project Zero
