@@ -13,6 +13,7 @@
 <body>
 
 <ul>
+    <li><a href="../index.php">Home</a></li>
     <li><a href="../pages/evenementen.php">evenementen</a></li>
     <li><a href="../pages/games.php">games</a></li>
     <li><a href="../pages/teams.php">teams</a></li>
