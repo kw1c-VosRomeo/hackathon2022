@@ -4,7 +4,6 @@
  */
 ?>
 
-
 <?php
 // Een "leeg" $pdo variabele aanmaken
 $pdo = null;
